@@ -9,6 +9,7 @@ def atualizarDF():
     return qtd_jogadores, lista_jogadores
 
 st.set_page_config(page_title='Gerador de Times', page_icon='icone-fut.png')
+st.image('./background.png', width=700 )
 st.title('Gerador de Times')
 
 # Variáveis
